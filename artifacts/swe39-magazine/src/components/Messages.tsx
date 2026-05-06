@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import vcPortrait from '@assets/image_1778089037059.png';
-import headPortrait from '@/assets/images/portrait-head.png';
+import headPortrait from '@assets/image_1778089216813.png';
 import facultyPortrait from '@/assets/images/portrait-faculty.png';
 import studentPortrait from '@/assets/images/portrait-student.png';
 
@@ -21,9 +21,9 @@ const messages = [
   },
   {
     id: 2,
-    name: 'Dr. Imran Mahmud',
+    name: 'Professor Dr. Imran Mahmud',
     title: 'Head of Department',
-    subtitle: 'Software Engineering, DIU',
+    subtitle: 'Software Engineering, Daffodil International University',
     image: headPortrait,
     category: 'faculty' as Category,
     message:
