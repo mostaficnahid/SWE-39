@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import vcPortrait from '@assets/image_1778089037059.png';
 import headPortrait from '@assets/image_1778089216813.png';
-import facultyPortrait from '@/assets/images/portrait-faculty.png';
+import facultyPortrait from '@assets/image_1778089361221.png';
 import studentPortrait from '@/assets/images/portrait-student.png';
 
 type Category = 'all' | 'faculty' | 'students';
@@ -32,9 +32,9 @@ const messages = [
   },
   {
     id: 3,
-    name: 'Fazle Rabbi',
-    title: 'Senior Lecturer',
-    subtitle: 'Department of Software Engineering',
+    name: 'Dr. Md. Fazla Elahe',
+    title: 'Assistant Professor & Associate Head',
+    subtitle: 'Department of Software Engineering, DIU',
     image: facultyPortrait,
     category: 'faculty' as Category,
     message:
