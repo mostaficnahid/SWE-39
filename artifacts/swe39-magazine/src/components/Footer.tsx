@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import uniLogo from '@assets/Untitled_design_(3)_1778086197986.png';
-import deptLogo from '@assets/Untitled_design_(2)_1778086197986.png';
-import batchLogo from '@assets/IMG_3030_1778086197986.PNG';
+import uniLogo from '@assets/uni_logo_nobg.png';
+import deptLogo from '@assets/swe_logo_nobg.png';
+import batchLogo from '@assets/batch_logo_nobg.png';
 
 const navLinks = [
   { label: 'Home', href: '#home' },

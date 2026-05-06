@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import uniLogo from '@assets/Untitled_design_(3)_1778086197986.png';
+import uniLogo from '@assets/uni_logo_nobg.png';
 
 const links = [
   { label: 'Home', href: '#home' },

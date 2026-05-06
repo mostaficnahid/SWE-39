@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import batchLogo from '@assets/IMG_3030_1778086197986.PNG';
+import batchLogo from '@assets/batch_logo_nobg.png';
 
 export default function LoadingScreen() {
   const [visible, setVisible] = useState(true);
