@@ -1,0 +1,243 @@
+Create a premium, modern, and emotionally engaging frontend-only graduation magazine website for the graduating batch of Daffodil International University SWE-39, Class of 2026.
+
+The website should feel like a world-class digital graduation magazine that combines elegance, nostalgia, celebration, storytelling, and modern web aesthetics. The experience must feel memorable, immersive, and emotionally meaningful while maintaining a polished and professional presentation suitable for students, faculty members, alumni, and visitors.
+
+Overall Theme & Mood:
+Blend professional editorial design with youthful energy, emotional storytelling, academic pride, and modern digital experiences. The website should celebrate friendships, achievements, campus memories, teamwork, growth, and the unforgettable journey of SWE-39.
+
+Design Style:
+
+* Modern magazine-inspired design
+* Premium editorial layouts
+* Cinematic visual storytelling
+* Elegant typography with strong hierarchy
+* Clean and luxurious UI
+* Fully responsive design across desktop, tablet, and mobile
+* Smooth scrolling and polished transitions
+* Interactive yet minimal animations
+* Balanced use of whitespace and immersive visuals
+
+Visual Identity:
+
+* Use a sophisticated and celebratory color palette inspired by graduation, academic excellence, and university identity
+* Combine dark elegant sections with light editorial sections for contrast
+* Add subtle gradients, glassmorphism, modern shadows, and premium UI effects
+* Use layered layouts, magazine grids, editorial cards, and cinematic spacing
+* Add subtle background textures, glowing accents, section dividers, and elegant overlays
+* The overall aesthetic should feel timeless, emotional, luxurious, and memorable
+
+Frontend Technology Requirements:
+
+* Frontend only
+* Use React + Vite or Next.js frontend
+* Tailwind CSS for styling
+* Framer Motion for animations
+* Responsive layouts using CSS Grid and Flexbox
+* Smooth scrolling and page transitions
+* Interactive image gallery/lightbox
+* Optimized performance and accessibility
+* Modern component-based architecture
+* Clean reusable code structure
+
+Homepage / Hero Section:
+Design a stunning cinematic hero section that immediately creates emotional impact.
+
+Include:
+
+* University name prominently displayed
+* “SWE-39”
+* “Class of 2026”
+* A powerful emotional tagline such as:
+  “More Than a Batch — A Legacy of Memories”
+  or
+  “From Classrooms to Dreams”
+* Elegant call-to-action buttons:
+  “Explore Our Journey”
+  “Celebrate Our Memories”
+* Background featuring cinematic graduation visuals, university atmosphere, or layered magazine collage effects
+* Smooth entrance animations and scroll-based interactions
+* Add floating particles, glowing gradients, or subtle motion effects for premium feel
+
+Navigation:
+Create a clean sticky navigation bar with smooth scrolling links:
+
+* Home
+* Messages
+* Memories
+* Gallery
+* Quotes
+* Legacy
+* Team
+
+Navigation should:
+
+* Be elegant and minimal
+* Include hover animations
+* Have transparent-to-solid transition on scroll
+* Work perfectly on mobile devices
+
+Messages Section:
+Create a professional editorial-style section featuring inspiring messages from:
+
+* Teachers
+* Mentors
+* Department heads
+* Students
+* Batch representatives
+
+Design Requirements:
+
+* Magazine-style cards
+* Elegant typography
+* Author photos or avatars
+* Quote-inspired layouts
+* Subtle hover animations
+* Highlight gratitude, inspiration, encouragement, and future aspirations
+
+Memories Section:
+Create an immersive storytelling section showcasing:
+
+* Academic journey
+* Classroom moments
+* Group projects
+* Events
+* Competitions
+* Achievements
+* Campus life
+* Friendships
+
+Layout Ideas:
+
+* Timeline-based storytelling
+* Editorial magazine feature blocks
+* Alternating image/text sections
+* Cinematic horizontal scroll moments
+* Interactive milestone cards
+
+This section should feel emotional, nostalgic, and inspiring.
+
+Gallery / Photos Section:
+Create a premium modern gallery experience featuring:
+
+* Graduation photos
+* Event highlights
+* Group photos
+* Candid moments
+* Campus memories
+* Farewell moments
+
+Gallery Features:
+
+* Masonry-style layouts
+* Magazine collage sections
+* Hover zoom effects
+* Lightbox modal viewer
+* Smooth animations
+* Dynamic filtering/categories
+* Responsive image grids
+* Cinematic spacing and composition
+
+Quotes Section:
+Create an emotional and visually beautiful quote section featuring:
+
+* Motivational quotes
+* Emotional memories
+* Student reflections
+* Faculty wisdom
+* Inspirational graduation lines
+
+Design Requirements:
+
+* Elegant typography
+* Editorial quote cards
+* Minimal decorative elements
+* Soft transitions and hover effects
+* Modern premium layouts
+* Some quotes displayed in large cinematic typography blocks
+
+Legacy Section:
+Add a dedicated “Legacy of SWE-39” section that reflects:
+
+* Unity
+* Friendship
+* Growth
+* Innovation
+* Future dreams
+* The impact of the batch
+
+Include:
+
+* Emotional storytelling
+* Statistics or achievements
+* Animated counters
+* Timeline highlights
+* Legacy-inspired visuals
+
+Interactive Elements:
+Include:
+
+* Smooth scroll animations
+* Fade-ins and reveal effects
+* Cursor interactions
+* Parallax effects
+* Scroll-triggered animations
+* Cinematic transitions
+* Elegant loading screen
+* Interactive hover states
+
+Typography:
+Use elegant modern font combinations such as:
+
+* Playfair Display
+* Poppins
+* Inter
+* Montserrat
+* Bebas Neue for headings
+
+Typography should feel:
+
+* Editorial
+* Premium
+* Emotional
+* Modern
+* Highly readable
+
+Footer:
+Create a memorable premium footer featuring:
+
+* SWE-39 branding
+* Graduation year
+* University identity
+* Emotional closing line
+* Social media icons
+* Credits section
+* “Made with memories and dreams” style message
+
+Performance & UX:
+
+* Fast loading
+* Fully responsive
+* SEO-friendly frontend structure
+* Accessible design
+* Optimized animations
+* Smooth user experience
+* Mobile-first responsiveness
+
+Creative Goal:
+The final frontend website should feel like:
+
+* A premium digital graduation magazine
+* A cinematic celebration of SWE-39
+* A timeless memory archive
+* An emotional storytelling experience
+* A professional showcase of the graduating batch
+
+The overall experience should leave visitors feeling:
+
+* Inspired
+* Emotional
+* Proud
+* Nostalgic
+* Connected to the legacy of SWE-39
+
+The final result must look world-class, modern, immersive, elegant, and unforgettable — worthy of representing the graduation legacy of Daffodil International University SWE-39, Class of 2026.
