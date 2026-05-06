@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "PiFk-JiBo7HQrXKVXxRig"
+uri = "file://artifacts/swe39-magazine/src/assets/images/portrait-vc.png"
+type = "image"
+title = "Vice Chancellor portrait"
+
+[[generated]]
+id = "fzk40T8-ZqUyLQzCZR5AL"
+uri = "file://artifacts/swe39-magazine/src/assets/images/portrait-head.png"
+type = "image"
+title = "Head of Department portrait"
+
+[[generated]]
+id = "EoDF2v21koct1vT_wF8Yf"
+uri = "file://artifacts/swe39-magazine/src/assets/images/portrait-faculty.png"
+type = "image"
+title = "Faculty member portrait"
+
+[[generated]]
+id = "4UL1vmEsWomJgqdYXyBev"
+uri = "file://artifacts/swe39-magazine/src/assets/images/portrait-student.png"
+type = "image"
+title = "Student representative portrait"
+
+[[generated]]
+id = "JY09Tta7Qn43TTgSH6e-E"
+uri = "file://artifacts/swe39-magazine/src/assets/images/memory-hackathon.png"
+type = "image"
+title = "Hackathon memory"
+
+[[generated]]
+id = "1ksUxhUGtpZcR6RlbFsXV"
+uri = "file://artifacts/swe39-magazine/src/assets/images/memory-defense.png"
+type = "image"
+title = "Project defense memory"
+
+[[generated]]
+id = "h3ZnAojCaQG9rqlTa79x5"
+uri = "file://artifacts/swe39-magazine/src/assets/images/memory-campus.png"
+type = "image"
+title = "Campus life memory"
+
+[[generated]]
+id = "-if4Hjw7xVLNuuqcAzuBX"
+uri = "file://artifacts/swe39-magazine/src/assets/images/gallery-group1.png"
+type = "image"
+title = "Graduation group photo"
+
+[[generated]]
+id = "9hosQlVTrY_IHxaK1RXdN"
+uri = "file://artifacts/swe39-magazine/src/assets/images/gallery-event.png"
+type = "image"
+title = "Academic event photo"
+
+[[generated]]
+id = "F93_bajuK9LQjVW2W78k6"
+uri = "file://artifacts/swe39-magazine/src/assets/images/gallery-studying.png"
+type = "image"
+title = "Students studying photo"
