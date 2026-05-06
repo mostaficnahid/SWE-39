@@ -79,8 +79,8 @@ export default function Timeline() {
           transition={{ duration: 0.8 }}
           className="mb-24 text-center"
         >
-          <p className="text-[#c9a84c] text-xs uppercase tracking-[0.35em] font-semibold mb-4">Academic Journey</p>
-          <h2 className="font-display text-[clamp(2.5rem,6vw,5rem)] leading-none text-white">THE ROAD WE WALKED</h2>
+          <p className="text-[#c9a84c] text-xs uppercase tracking-[0.35em] font-semibold mb-4">The Journey</p>
+          <h2 className="font-display text-[clamp(2.5rem,6vw,5rem)] leading-none text-white">CHAPTERS OF<br />OUR STORY</h2>
         </motion.div>
 
         <div className="relative">
