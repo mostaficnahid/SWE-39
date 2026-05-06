@@ -2,23 +2,23 @@ import { motion } from 'framer-motion';
 
 const milestones = [
   {
-    year: '2020',
+    year: '2022',
     season: 'Fall',
     title: 'The First Step',
     description:
-      'Orientation day. One hundred and twenty strangers walked into Daffodil International University with laptops, ambitions, and absolutely no idea what recursion was.',
+      'Orientation day. A group of determined strangers walked into Daffodil International University with laptops, ambitions, and the shared dream of building something great.',
     color: '#c9a84c',
   },
   {
-    year: '2021',
+    year: '2023',
     season: 'Spring',
-    title: 'Pandemic & Perseverance',
+    title: 'Finding Our Footing',
     description:
-      'Classes moved online. SWE-39 adapted, connected across screens, and proved that curiosity survives even a global crisis.',
+      'The fundamentals clicked. Data structures, algorithms, and late-night lab sessions forged friendships that would last a lifetime.',
     color: '#7bb3f0',
   },
   {
-    year: '2022',
+    year: '2023',
     season: 'Fall',
     title: 'First Hackathon Victory',
     description:
@@ -26,11 +26,11 @@ const milestones = [
     color: '#c9a84c',
   },
   {
-    year: '2023',
+    year: '2024',
     season: 'Spring',
     title: 'Industry Immersion',
     description:
-      'Internships, industrial attachments, and the first real-world code reviews. The classroom theory became living, breathing systems.',
+      'Internships, industrial attachments, and the first real-world code reviews. Classroom theory became living, breathing systems.',
     color: '#7bb3f0',
   },
   {
