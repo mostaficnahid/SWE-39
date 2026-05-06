@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import vcPortrait from '@assets/image_1778089037059.png';
 import headPortrait from '@assets/image_1778089216813.png';
 import facultyPortrait from '@assets/image_1778089361221.png';
-import studentPortrait from '@/assets/images/portrait-student.png';
 
-type Category = 'all' | 'faculty' | 'students';
+
+type Category = 'all' | 'faculty';
 
 const messages = [
   {
@@ -41,23 +41,11 @@ const messages = [
       'Watching you grow from curious freshers into competent engineers has been the greatest privilege of my career. Never lose your curiosity, stay humble, and always keep building things that matter. The world needs your solutions.',
     featured: false,
   },
-  {
-    id: 4,
-    name: 'Ayman Rahman',
-    title: 'Batch Representative',
-    subtitle: 'SWE-39, Class of 2026',
-    image: studentPortrait,
-    category: 'students' as Category,
-    message:
-      'Four years of late-night debugging, missed semicolons, deadline sprints, and unforgettable campus memories. We survived the assignments, conquered the defense, and most importantly — we did it together. This is not an ending. This is our most exciting deployment yet. Here is to us, SWE-39.',
-    featured: false,
-  },
 ];
 
 const categories: { key: Category; label: string }[] = [
   { key: 'all', label: 'All Messages' },
   { key: 'faculty', label: 'Faculty & Mentors' },
-  { key: 'students', label: 'Students' },
 ];
 
 export default function Messages() {
