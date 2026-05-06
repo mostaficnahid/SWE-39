@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import vcPortrait from '@/assets/images/portrait-vc.png';
+import vcPortrait from '@assets/image_1778089037059.png';
 import headPortrait from '@/assets/images/portrait-head.png';
 import facultyPortrait from '@/assets/images/portrait-faculty.png';
 import studentPortrait from '@/assets/images/portrait-student.png';
@@ -10,7 +10,7 @@ type Category = 'all' | 'faculty' | 'students';
 const messages = [
   {
     id: 1,
-    name: 'Prof. Dr. M. Lutfar Rahman',
+    name: 'Professor Dr. M. R. Kabir',
     title: 'Vice Chancellor',
     subtitle: 'Daffodil International University',
     image: vcPortrait,
