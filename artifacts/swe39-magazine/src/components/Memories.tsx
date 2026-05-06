@@ -7,27 +7,27 @@ const memories = [
   {
     id: 1,
     title: 'First Semester',
-    year: '2020',
+    year: '2022',
     tag: 'The Beginning',
     description:
-      'Orientation day. A hundred and twenty strangers walked in with laptops, ambitions, and absolutely no idea what recursion was. By week four, we were friends. By semester end, we were a family.',
+      'Orientation day. A group of determined strangers walked into Daffodil International University with laptops, ambitions, and the shared dream of building something great. By semester end, we were a family.',
     image: memoryCampus,
     side: 'left',
   },
   {
     id: 2,
-    title: 'Pandemic & Perseverance',
-    year: '2021',
-    tag: 'Resilience',
+    title: 'Finding Our Footing',
+    year: '2023',
+    tag: 'Growth',
     description:
-      'Classes moved online. The world paused. SWE-39 did not. We adapted, connected across screens, and proved that genuine curiosity and community survive even a global crisis.',
+      'The fundamentals clicked. Data structures, algorithms, and late-night lab sessions forged friendships that would carry us through every challenge ahead.',
     image: memoryHackathon,
     side: 'right',
   },
   {
     id: 3,
     title: 'Hackathon Victories',
-    year: '2022',
+    year: '2023',
     tag: 'Innovation',
     description:
       'Forty-eight sleepless hours. Energy drinks, whiteboards, and breakthrough moments. We competed nationally for the first time — and came back with recognition and stories we still tell.',
@@ -37,8 +37,8 @@ const memories = [
   {
     id: 4,
     title: 'Industry Immersion',
-    year: '2023',
-    tag: 'Growth',
+    year: '2024',
+    tag: 'Real World',
     description:
       'Internships, industrial attachments, and the first real-world code reviews. The classroom theory became living, breathing systems serving actual users. The shift was irreversible.',
     image: memoryCampus,
@@ -47,7 +47,7 @@ const memories = [
   {
     id: 5,
     title: 'Capstone & Defense',
-    year: '2024–2025',
+    year: '2025–2026',
     tag: 'Achievement',
     description:
       'Months of research, design, and engineering crystallized into final projects. Standing before the panel — hearts pounding — presenting the work of four years. We passed. We more than passed.',
@@ -85,7 +85,7 @@ export default function Memories() {
             <h2 className="font-display text-[clamp(2.5rem,6vw,5rem)] leading-none text-white">CHAPTERS OF<br />OUR STORY</h2>
           </div>
           <p className="text-white/40 text-sm leading-relaxed max-w-xs">
-            Four years compressed into moments that will live forever in memory. These are the chapters that defined us.
+            From 2022 to 2026 — four years compressed into moments that will live forever in memory. These are the chapters that defined us.
           </p>
         </motion.div>
 
