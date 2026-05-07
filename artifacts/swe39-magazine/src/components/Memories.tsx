@@ -11,46 +11,46 @@ import photo8 from '@assets/IMG_9090_1778174403720.JPG';
 const memories = [
   {
     id: 1,
-    title: 'First Semester',
+    title: 'Together We Rise',
     tag: 'Campus Life',
     description:
-      'Orientation day. A group of determined strangers walked into Daffodil International University with laptops, ambitions, and the shared dream of building something great. By semester end, we were a family.',
+      'Thumbs up, smiles wide — SWE-39 on campus, side by side. From the very first day, this batch showed up for each other in every way that mattered.',
     image: photo4,
     side: 'left',
   },
   {
     id: 2,
-    title: 'Finding Our Footing',
+    title: 'Pure Joy',
     tag: 'Good Vibes',
     description:
-      'The fundamentals clicked. Data structures, algorithms, and late-night lab sessions forged friendships that would carry us through every challenge ahead.',
+      'Unscripted laughter, genuine smiles, and a garden full of memories. These are the moments nobody planned — the ones we remember most.',
     image: photo3,
     side: 'right',
   },
   {
     id: 3,
-    title: 'Hackathon Victories',
+    title: 'Signed & Remembered',
     tag: 'Farewell Day',
     description:
-      'Forty-eight sleepless hours. Energy drinks, whiteboards, and breakthrough moments. We competed nationally for the first time — and came back with recognition and stories we still tell.',
+      'Every name written on a shirt was a promise — that no matter where life takes us, we carry each other. The ink fades; the bond never does.',
     image: photo2,
     side: 'left',
   },
   {
     id: 4,
-    title: 'Industry Immersion',
+    title: 'One Last Stand',
     tag: 'Lakeside',
     description:
-      'Internships, industrial attachments, and the first real-world code reviews. The classroom theory became living, breathing systems serving actual users. The shift was irreversible.',
+      'Eight of us, shoulder to shoulder by the lake, in the shirts that told our story. A lineup of graduates ready to face whatever comes next.',
     image: photo5,
     side: 'right',
   },
   {
     id: 5,
-    title: 'Capstone & Defense',
+    title: 'Our Batch, Our Family',
     tag: 'Batch Family',
     description:
-      'Months of research, design, and engineering crystallized into final projects. Standing before the panel — hearts pounding — presenting the work of four years. We passed. We more than passed.',
+      'Not just classmates. Not just batchmates. Family. SWE-39 grew up together — and this photo is proof that no graduation ceremony can end that.',
     image: photo6,
     side: 'left',
   },
