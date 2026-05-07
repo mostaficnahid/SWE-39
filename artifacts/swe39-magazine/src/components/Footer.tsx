@@ -110,6 +110,9 @@ export default function Footer() {
           <p className="text-white/15 text-xs uppercase tracking-widest">
             Made with memories and dreams · SWE-39 © 2026
           </p>
+          <p className="text-white/20 text-xs">
+            Developed by <span className="text-[#c9a84c]/60">Mostafic Yellahy Nahid</span>
+          </p>
           <p className="text-white/25 text-xs">Class of 2026</p>
         </div>
       </div>
