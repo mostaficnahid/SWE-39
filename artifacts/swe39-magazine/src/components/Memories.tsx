@@ -12,8 +12,7 @@ const memories = [
   {
     id: 1,
     title: 'First Semester',
-    year: '2022',
-    tag: 'The Beginning',
+    tag: 'Campus Life',
     description:
       'Orientation day. A group of determined strangers walked into Daffodil International University with laptops, ambitions, and the shared dream of building something great. By semester end, we were a family.',
     image: photo4,
@@ -22,8 +21,7 @@ const memories = [
   {
     id: 2,
     title: 'Finding Our Footing',
-    year: '2023',
-    tag: 'Growth',
+    tag: 'Good Vibes',
     description:
       'The fundamentals clicked. Data structures, algorithms, and late-night lab sessions forged friendships that would carry us through every challenge ahead.',
     image: photo3,
@@ -32,8 +30,7 @@ const memories = [
   {
     id: 3,
     title: 'Hackathon Victories',
-    year: '2023',
-    tag: 'Innovation',
+    tag: 'Farewell Day',
     description:
       'Forty-eight sleepless hours. Energy drinks, whiteboards, and breakthrough moments. We competed nationally for the first time — and came back with recognition and stories we still tell.',
     image: photo2,
@@ -42,8 +39,7 @@ const memories = [
   {
     id: 4,
     title: 'Industry Immersion',
-    year: '2024',
-    tag: 'Real World',
+    tag: 'Lakeside',
     description:
       'Internships, industrial attachments, and the first real-world code reviews. The classroom theory became living, breathing systems serving actual users. The shift was irreversible.',
     image: photo5,
@@ -52,8 +48,7 @@ const memories = [
   {
     id: 5,
     title: 'Capstone & Defense',
-    year: '2025–2026',
-    tag: 'Achievement',
+    tag: 'Batch Family',
     description:
       'Months of research, design, and engineering crystallized into final projects. Standing before the panel — hearts pounding — presenting the work of four years. We passed. We more than passed.',
     image: photo6,
@@ -116,7 +111,6 @@ export default function Memories() {
                   <div className={`flex-1 w-full lg:w-auto ${isLeft ? 'lg:text-right' : 'lg:text-left'} text-left mb-6 lg:mb-0`}>
                     <div className={`flex items-center gap-3 mb-3 ${isLeft ? 'lg:justify-end' : 'lg:justify-start'} justify-start`}>
                       <span className="text-[10px] uppercase tracking-[0.3em] text-[#c9a84c]/70 border border-[#c9a84c]/20 px-3 py-1">{mem.tag}</span>
-                      <span className="font-mono text-xs text-white/30">{mem.year}</span>
                     </div>
                     <h3 className="font-display text-3xl md:text-4xl text-white tracking-wide mb-4">{mem.title.toUpperCase()}</h3>
                     <p className="text-white/50 text-sm leading-relaxed max-w-sm">{mem.description}</p>
@@ -138,9 +132,6 @@ export default function Memories() {
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                      <div className="absolute bottom-4 left-5">
-                        <span className="font-mono text-[#c9a84c] text-xs tracking-widest">{mem.year}</span>
-                      </div>
                     </div>
                   </div>
                 </motion.div>
