@@ -84,17 +84,8 @@ export default function Navbar() {
             })}
           </div>
 
-          {/* CTA + hamburger */}
+          {/* Hamburger */}
           <div className="flex items-center gap-4">
-            <button
-              onClick={() => handleNav('/graduates')}
-              className="hidden lg:block text-xs uppercase tracking-[0.15em] px-5 py-2 border border-[#c9a84c]/40 text-[#c9a84c] hover:bg-[#c9a84c]/10 transition-all duration-300"
-              data-testid="nav-cta"
-            >
-              Graduates
-            </button>
-
-            {/* Hamburger */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="lg:hidden flex flex-col gap-[5px] p-2"
