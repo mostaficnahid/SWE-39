@@ -124,6 +124,14 @@ const graduates = [
     email: 'mostafic2003@gmail.com',
     photo: drivePhoto('1W9aF7ssu01VC7ykHKnqsUsyPUSiYkJrO'),
   },
+  {
+    name: 'Md. Kaysar Habib Rahul',
+    id: '0242220005341004',
+    fb: 'https://www.facebook.com/share/1BHmoBSz5U/',
+    li: 'https://www.linkedin.com/in/khrahul73',
+    email: 'kaysar.rahul001@gmail.com',
+    photo: drivePhoto('1ooYbpicLCY5c1hY0mlf4V6BszR3cJrw5'),
+  },
 ];
 
 function FacebookIcon() {
