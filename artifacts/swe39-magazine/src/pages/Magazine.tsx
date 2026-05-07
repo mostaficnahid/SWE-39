@@ -8,6 +8,7 @@ import Quotes from '@/components/Quotes';
 import Legacy from '@/components/Legacy';
 import Clubs from '@/components/Clubs';
 import Timeline from '@/components/Timeline';
+import Graduates from '@/components/Graduates';
 import Footer from '@/components/Footer';
 
 export default function Magazine() {
@@ -23,6 +24,7 @@ export default function Magazine() {
         <Quotes />
         <Legacy />
         <Clubs />
+        <Graduates />
         <Timeline />
         <Footer />
       </main>
