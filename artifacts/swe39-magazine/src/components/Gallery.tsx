@@ -12,22 +12,30 @@ import photo9 from '@assets/IMG_20260506_215716_280_1778174279743.jpg';
 import photo10 from '@assets/IMG-20260506-WA0005_1778174274959.jpg';
 import photo11 from '@assets/IMG_20260506_215820_219_1778174277587.jpg';
 import photo12 from '@assets/IMG_9090_1778174403720.JPG';
+import photo13 from '@assets/IMG_0279_1778174685108.JPG';
+import photo14 from '@assets/Ashik6_1778174695493.jpg';
+import photo15 from '@assets/Ashik_1778174698739.jpg';
+import photo16 from '@assets/Ashik4_1778174701027.jpg';
 
 type Tag = 'all' | 'group' | 'events' | 'campus' | 'achievements';
 
 const photos = [
-  { id: 1,  src: photo1,  caption: 'SWE-39 — The Full Squad', tag: 'group' as Tag, wide: true },
-  { id: 2,  src: photo2,  caption: 'Signed & Remembered', tag: 'events' as Tag, wide: false },
-  { id: 3,  src: photo3,  caption: 'Thumbs Up for Four Years', tag: 'group' as Tag, wide: false },
-  { id: 4,  src: photo4,  caption: 'By the Lake, One Last Time', tag: 'campus' as Tag, wide: false },
-  { id: 5,  src: photo5,  caption: 'Laughter in the Garden', tag: 'campus' as Tag, wide: false },
-  { id: 6,  src: photo6,  caption: 'Brothers in Arms', tag: 'group' as Tag, wide: false },
-  { id: 7,  src: photo7,  caption: 'Farewell Moments', tag: 'events' as Tag, wide: false },
-  { id: 8,  src: photo8,  caption: 'Side by Side', tag: 'group' as Tag, wide: false },
-  { id: 9,  src: photo9,  caption: 'SWE-39 Lake Front', tag: 'campus' as Tag, wide: false },
-  { id: 10, src: photo10, caption: 'Writing Memories on Each Other', tag: 'events' as Tag, wide: false },
-  { id: 11, src: photo11, caption: 'A Signature to Remember', tag: 'events' as Tag, wide: false },
-  { id: 12, src: photo12, caption: 'The SWE-39 Cake', tag: 'achievements' as Tag, wide: false },
+  { id: 1,  src: photo13, caption: 'Batch 39 — The Frame That Says It All', tag: 'events' as Tag, wide: false },
+  { id: 2,  src: photo1,  caption: 'SWE-39 — The Full Squad', tag: 'group' as Tag, wide: true },
+  { id: 3,  src: photo2,  caption: 'Signed & Remembered', tag: 'events' as Tag, wide: false },
+  { id: 4,  src: photo3,  caption: 'Thumbs Up for Four Years', tag: 'group' as Tag, wide: false },
+  { id: 5,  src: photo14, caption: 'Farewell Selfie', tag: 'group' as Tag, wide: false },
+  { id: 6,  src: photo4,  caption: 'By the Lake, One Last Time', tag: 'campus' as Tag, wide: false },
+  { id: 7,  src: photo5,  caption: 'Laughter in the Garden', tag: 'campus' as Tag, wide: false },
+  { id: 8,  src: photo15, caption: 'Standing Together', tag: 'group' as Tag, wide: false },
+  { id: 9,  src: photo6,  caption: 'Brothers in Arms', tag: 'group' as Tag, wide: false },
+  { id: 10, src: photo7,  caption: 'Farewell Moments', tag: 'events' as Tag, wide: false },
+  { id: 11, src: photo8,  caption: 'Side by Side', tag: 'group' as Tag, wide: false },
+  { id: 12, src: photo9,  caption: 'SWE-39 Lake Front', tag: 'campus' as Tag, wide: false },
+  { id: 13, src: photo16, caption: 'Writing Memories on Each Other', tag: 'events' as Tag, wide: false },
+  { id: 14, src: photo10, caption: 'Leaving a Mark', tag: 'events' as Tag, wide: false },
+  { id: 15, src: photo11, caption: 'A Signature to Remember', tag: 'events' as Tag, wide: false },
+  { id: 16, src: photo12, caption: 'The SWE-39 Cake', tag: 'achievements' as Tag, wide: false },
 ];
 
 const filters: { key: Tag; label: string }[] = [
