@@ -1,9 +1,20 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-function drivePhoto(id: string) {
-  return `https://drive.google.com/thumbnail?id=${id}&sz=w400`;
-}
+import farhanPhoto from '@/assets/images/graduates/farhan.jpg';
+import hamimPhoto from '@/assets/images/graduates/hamim.jpg';
+import kayesPhoto from '@/assets/images/graduates/kayes.jpg';
+import ashikPhoto from '@/assets/images/graduates/ashik.jpg';
+import laboniPhoto from '@/assets/images/graduates/laboni.jpg';
+import hemalPhoto from '@/assets/images/graduates/hemal.jpg';
+import fahadPhoto from '@/assets/images/graduates/fahad.jpg';
+import beshalPhoto from '@/assets/images/graduates/beshal.jpg';
+import mimPhoto from '@/assets/images/graduates/mim.jpg';
+import seajonPhoto from '@/assets/images/graduates/seajon.jpg';
+import borshaPhoto from '@/assets/images/graduates/borsha.jpg';
+import saddamPhoto from '@/assets/images/graduates/saddam.jpg';
+import nahidPhoto from '@/assets/images/graduates/nahid.jpg';
+import rahulPhoto from '@/assets/images/graduates/rahul.jpg';
 
 function normalizeUrl(url: string): string | null {
   if (!url || url.startsWith('N/A') || url.trim() === '') return null;
@@ -18,7 +29,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1BCz3DyrDA/',
     li: null,
     email: 'f05076963@gmail.com',
-    photo: drivePhoto('1tqlgJAtk4Yl8HpYPE7GPsVtKuIHCbaC8'),
+    photo: farhanPhoto,
   },
   {
     name: 'Syed Hamim An Nafis',
@@ -26,7 +37,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1BB7H3H2Pk/?mibextid=wwXIfr',
     li: 'https://www.linkedin.com/in/syed-hamim-an-nafis',
     email: 'nafis22205341112@diu.edu.bd',
-    photo: drivePhoto('1xNXW4kowYyCJQ4bM83w_f46vMH32G7hw'),
+    photo: hamimPhoto,
   },
   {
     name: 'Kayes Ahmed Himu',
@@ -34,7 +45,7 @@ const graduates = [
     fb: 'https://www.facebook.com/kayesahmed.himu.9',
     li: 'https://www.linkedin.com/in/kayesahmedhimu9/',
     email: 'himukayes440@gmail.com',
-    photo: drivePhoto('181h27qOTjbttxRnHqYFMJrtgFJo6HK26'),
+    photo: kayesPhoto,
   },
   {
     name: 'Mahfujur Rahman Ashik',
@@ -42,7 +53,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/18qUCSphs6/',
     li: 'https://www.linkedin.com/in/mahfujur-rahman-ashik-aa1921346',
     email: 'rahmanashik4540@gmail.com',
-    photo: drivePhoto('1lr3k_iah0fsedEp0hETcFbhTKUiTVBsf'),
+    photo: ashikPhoto,
   },
   {
     name: 'Laboni Akter',
@@ -50,7 +61,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1NjaxwbPvy/',
     li: 'https://www.linkedin.com/in/laboni-akter-305b6a265/',
     email: 'laboniakter2584@gmail.com',
-    photo: drivePhoto('10_gPS1JHYUoRVeB_aNgbbA9h8uwPEH6g'),
+    photo: laboniPhoto,
   },
   {
     name: 'MD Rohejul Islam Hemal',
@@ -58,7 +69,7 @@ const graduates = [
     fb: 'https://www.facebook.com/rohejulhemal/',
     li: 'https://www.linkedin.com/in/rohejulhemal/',
     email: 'rohejulislamhimal0099@gmail.com',
-    photo: drivePhoto('1RzyLc1XyUDBPXgqVOny42iU23hgS8-MI'),
+    photo: hemalPhoto,
   },
   {
     name: 'Md. Al Fahad',
@@ -66,7 +77,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1CTjE9mzzA/',
     li: 'https://www.linkedin.com/in/abdullalfahad2000',
     email: 'abdullaalfahad007@gmail.com',
-    photo: drivePhoto('1Nw8D0wuPCrAH2kGnuCk4GJvCJvZu2Dvq'),
+    photo: fahadPhoto,
   },
   {
     name: 'Md Abutaher Beshal',
@@ -74,7 +85,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1Hrztq2f2G/',
     li: 'https://www.linkedin.com/in/abutaher-beshal-823119266',
     email: 'skbeshal03@gmail.com',
-    photo: drivePhoto('18rg5znwEzNSsixShDVK84JWYgDP6vWe1'),
+    photo: beshalPhoto,
   },
   {
     name: 'Ashraful Islam',
@@ -82,7 +93,7 @@ const graduates = [
     fb: 'https://www.facebook.com/as.ashraful.i059',
     li: 'https://www.linkedin.com/in/ashraful-islam-b97b95265/',
     email: 'ashraful.i059@gmail.com',
-    photo: drivePhoto('1aZKf_Z9JTDDw-ssuzc2FMYCwmIbdR_02'),
+    photo: 'https://drive.google.com/thumbnail?id=1aZKf_Z9JTDDw-ssuzc2FMYCwmIbdR_02&sz=w400',
   },
   {
     name: 'Mimma Jahan Mim',
@@ -90,7 +101,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1HsVuEzHoJ/',
     li: 'https://www.linkedin.com/in/mimma-jahan-mim-b01680265',
     email: 'mim22205341226@diu.edu.bd',
-    photo: drivePhoto('19XKIoUdIMKPeFInszMciZYTcTpfsaEcw'),
+    photo: mimPhoto,
   },
   {
     name: 'Md Ektearul Haque Seajon',
@@ -98,7 +109,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1BXwCFMdad/',
     li: 'https://www.linkedin.com/in/ektearulhaque/',
     email: 'mdektearulhaqueseajon@gmail.com',
-    photo: drivePhoto('1XiQ3cuFYR5m_DEQX2m8EkcrJGIel8swO'),
+    photo: seajonPhoto,
   },
   {
     name: 'Sadia Afrin Borsha',
@@ -106,7 +117,7 @@ const graduates = [
     fb: 'https://www.facebook.com/afrin.borsha.923710',
     li: 'https://www.linkedin.com/in/afrin-borsha-19a101266',
     email: 'aborsha955@gmail.com',
-    photo: drivePhoto('1BQ_mrU2yGNzuclk52aerbOdSjbAX8Cir'),
+    photo: borshaPhoto,
   },
   {
     name: 'Saddam Khan',
@@ -114,7 +125,7 @@ const graduates = [
     fb: 'https://www.facebook.com/saddamkhanx',
     li: 'https://www.linkedin.com/in/saddamkhanx',
     email: 'saddam.khan.rox@gmail.com',
-    photo: drivePhoto('1rCHGb3Gfr2UncqeR_idgkdjYqIsev828'),
+    photo: saddamPhoto,
   },
   {
     name: 'Mostafic Yellahy Nahid',
@@ -122,7 +133,7 @@ const graduates = [
     fb: 'https://www.facebook.com/mostafic.nahid.373',
     li: 'https://www.linkedin.com/in/mostafic-yellahy-nahid-46a0202b5/',
     email: 'mostafic2003@gmail.com',
-    photo: drivePhoto('1W9aF7ssu01VC7ykHKnqsUsyPUSiYkJrO'),
+    photo: nahidPhoto,
   },
   {
     name: 'Md. Kaysar Habib Rahul',
@@ -130,7 +141,7 @@ const graduates = [
     fb: 'https://www.facebook.com/share/1BHmoBSz5U/',
     li: 'https://www.linkedin.com/in/khrahul73',
     email: 'kaysar.rahul001@gmail.com',
-    photo: drivePhoto('1ooYbpicLCY5c1hY0mlf4V6BszR3cJrw5'),
+    photo: rahulPhoto,
   },
 ];
 
