@@ -15,6 +15,7 @@ import borshaPhoto from '@/assets/images/graduates/borsha.jpg';
 import saddamPhoto from '@/assets/images/graduates/saddam.jpg';
 import nahidPhoto from '@/assets/images/graduates/nahid.jpg';
 import rahulPhoto from '@/assets/images/graduates/rahul.jpg';
+import ashrafulPhoto from '@/assets/images/graduates/ashraful.jpg';
 
 function normalizeUrl(url: string): string | null {
   if (!url || url.startsWith('N/A') || url.trim() === '') return null;
@@ -93,7 +94,7 @@ const graduates = [
     fb: 'https://www.facebook.com/as.ashraful.i059',
     li: 'https://www.linkedin.com/in/ashraful-islam-b97b95265/',
     email: 'ashraful.i059@gmail.com',
-    photo: 'https://drive.google.com/thumbnail?id=1aZKf_Z9JTDDw-ssuzc2FMYCwmIbdR_02&sz=w400',
+    photo: ashrafulPhoto,
   },
   {
     name: 'Mimma Jahan Mim',
