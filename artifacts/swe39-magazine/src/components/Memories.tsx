@@ -1,7 +1,12 @@
 import { motion } from 'framer-motion';
-import memoryHackathon from '@/assets/images/memory-hackathon.png';
-import memoryCampus from '@/assets/images/memory-campus.png';
-import memoryDefense from '@/assets/images/memory-defense.png';
+import photo1 from '@assets/IMG-20260506-WA0019_1778174273041.jpg';
+import photo2 from '@assets/WhatsApp_Image_2026-05-05_at_7.08.19_PM_1778174254853.jpeg';
+import photo3 from '@assets/IMG_9114_1778174394231.JPG';
+import photo4 from '@assets/WhatsApp_Image_2026-05-05_at_7.00.21_PM_1778174268454.jpeg';
+import photo5 from '@assets/IMG_20260506_215716_280_1778174279743.jpg';
+import photo6 from '@assets/IMG_9179_1778174388255.JPG';
+import photo7 from '@assets/IMG_9128_1778174397498.JPG';
+import photo8 from '@assets/IMG_9090_1778174403720.JPG';
 
 const memories = [
   {
@@ -11,7 +16,7 @@ const memories = [
     tag: 'The Beginning',
     description:
       'Orientation day. A group of determined strangers walked into Daffodil International University with laptops, ambitions, and the shared dream of building something great. By semester end, we were a family.',
-    image: memoryCampus,
+    image: photo4,
     side: 'left',
   },
   {
@@ -21,7 +26,7 @@ const memories = [
     tag: 'Growth',
     description:
       'The fundamentals clicked. Data structures, algorithms, and late-night lab sessions forged friendships that would carry us through every challenge ahead.',
-    image: memoryHackathon,
+    image: photo3,
     side: 'right',
   },
   {
@@ -31,7 +36,7 @@ const memories = [
     tag: 'Innovation',
     description:
       'Forty-eight sleepless hours. Energy drinks, whiteboards, and breakthrough moments. We competed nationally for the first time — and came back with recognition and stories we still tell.',
-    image: memoryDefense,
+    image: photo2,
     side: 'left',
   },
   {
@@ -41,7 +46,7 @@ const memories = [
     tag: 'Real World',
     description:
       'Internships, industrial attachments, and the first real-world code reviews. The classroom theory became living, breathing systems serving actual users. The shift was irreversible.',
-    image: memoryCampus,
+    image: photo5,
     side: 'right',
   },
   {
@@ -51,15 +56,15 @@ const memories = [
     tag: 'Achievement',
     description:
       'Months of research, design, and engineering crystallized into final projects. Standing before the panel — hearts pounding — presenting the work of four years. We passed. We more than passed.',
-    image: memoryHackathon,
+    image: photo6,
     side: 'left',
   },
 ];
 
 const mosaic = [
-  { id: 'm1', title: 'Campus Life', tag: 'Together', image: memoryCampus, wide: true },
-  { id: 'm2', title: 'Lab Sessions', tag: 'Learning', image: memoryDefense, wide: false },
-  { id: 'm3', title: 'Farewell Moments', tag: 'Forever', image: memoryHackathon, wide: false },
+  { id: 'm1', title: 'The Full Batch', tag: 'Together', image: photo1, wide: true },
+  { id: 'm2', title: 'Farewell Day', tag: 'Forever', image: photo7, wide: false },
+  { id: 'm3', title: 'The SWE-39 Cake', tag: 'Celebration', image: photo8, wide: false },
 ];
 
 export default function Memories() {

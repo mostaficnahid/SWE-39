@@ -1,23 +1,33 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import galleryGroup1 from '@/assets/images/gallery-group1.png';
-import galleryEvent from '@/assets/images/gallery-event.png';
-import galleryStudying from '@/assets/images/gallery-studying.png';
-import memoryHackathon from '@/assets/images/memory-hackathon.png';
-import memoryCampus from '@/assets/images/memory-campus.png';
-import memoryDefense from '@/assets/images/memory-defense.png';
+import photo1 from '@assets/IMG-20260506-WA0019_1778174273041.jpg';
+import photo2 from '@assets/WhatsApp_Image_2026-05-05_at_7.08.19_PM_1778174254853.jpeg';
+import photo3 from '@assets/WhatsApp_Image_2026-05-05_at_7.00.21_PM_1778174268454.jpeg';
+import photo4 from '@assets/IMG_9179_1778174388255.JPG';
+import photo5 from '@assets/IMG_9114_1778174394231.JPG';
+import photo6 from '@assets/IMG_9128_1778174397498.JPG';
+import photo7 from '@assets/WhatsApp_Image_2026-05-05_at_11.07.23_PM_1778174218043.jpeg';
+import photo8 from '@assets/WhatsApp_Image_2026-05-05_at_11.07.18_PM_1778174237488.jpeg';
+import photo9 from '@assets/IMG_20260506_215716_280_1778174279743.jpg';
+import photo10 from '@assets/IMG-20260506-WA0005_1778174274959.jpg';
+import photo11 from '@assets/IMG_20260506_215820_219_1778174277587.jpg';
+import photo12 from '@assets/IMG_9090_1778174403720.JPG';
 
 type Tag = 'all' | 'group' | 'events' | 'campus' | 'achievements';
 
 const photos = [
-  { id: 1, src: galleryGroup1, caption: 'Batch SWE-39 — Together Since Day One', tag: 'group' as Tag, wide: true },
-  { id: 2, src: galleryEvent, caption: 'Annual Tech Fest', tag: 'events' as Tag, wide: false },
-  { id: 3, src: galleryStudying, caption: 'Library Sessions', tag: 'campus' as Tag, wide: false },
-  { id: 4, src: memoryHackathon, caption: 'Hackathon Victory', tag: 'achievements' as Tag, wide: false },
-  { id: 5, src: memoryCampus, caption: 'Campus Grounds', tag: 'campus' as Tag, wide: false },
-  { id: 6, src: memoryDefense, caption: 'Final Project Defense', tag: 'achievements' as Tag, wide: true },
-  { id: 7, src: galleryGroup1, caption: 'Farewell Gathering', tag: 'group' as Tag, wide: false },
-  { id: 8, src: galleryEvent, caption: 'Department Seminar', tag: 'events' as Tag, wide: false },
+  { id: 1,  src: photo1,  caption: 'SWE-39 — The Full Squad', tag: 'group' as Tag, wide: true },
+  { id: 2,  src: photo2,  caption: 'Signed & Remembered', tag: 'events' as Tag, wide: false },
+  { id: 3,  src: photo3,  caption: 'Thumbs Up for Four Years', tag: 'group' as Tag, wide: false },
+  { id: 4,  src: photo4,  caption: 'By the Lake, One Last Time', tag: 'campus' as Tag, wide: false },
+  { id: 5,  src: photo5,  caption: 'Laughter in the Garden', tag: 'campus' as Tag, wide: false },
+  { id: 6,  src: photo6,  caption: 'Brothers in Arms', tag: 'group' as Tag, wide: false },
+  { id: 7,  src: photo7,  caption: 'Farewell Moments', tag: 'events' as Tag, wide: false },
+  { id: 8,  src: photo8,  caption: 'Side by Side', tag: 'group' as Tag, wide: false },
+  { id: 9,  src: photo9,  caption: 'SWE-39 Lake Front', tag: 'campus' as Tag, wide: false },
+  { id: 10, src: photo10, caption: 'Writing Memories on Each Other', tag: 'events' as Tag, wide: false },
+  { id: 11, src: photo11, caption: 'A Signature to Remember', tag: 'events' as Tag, wide: false },
+  { id: 12, src: photo12, caption: 'The SWE-39 Cake', tag: 'achievements' as Tag, wide: false },
 ];
 
 const filters: { key: Tag; label: string }[] = [
