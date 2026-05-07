@@ -6,6 +6,7 @@ import Memories from '@/components/Memories';
 import Gallery from '@/components/Gallery';
 import Quotes from '@/components/Quotes';
 import Legacy from '@/components/Legacy';
+import Clubs from '@/components/Clubs';
 import Timeline from '@/components/Timeline';
 import Footer from '@/components/Footer';
 
@@ -21,6 +22,7 @@ export default function Magazine() {
         <Gallery />
         <Quotes />
         <Legacy />
+        <Clubs />
         <Timeline />
         <Footer />
       </main>
