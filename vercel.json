@@ -1,8 +1,8 @@
 {
   "buildCommand": "pnpm --filter @workspace/swe39-magazine run build",
-  "outputDirectory": "artifacts/swe39-magazine/dist/public",
+  "outputDirectory": "artifacts/swe39-magazine/dist",
   "installCommand": "pnpm install --frozen-lockfile",
-  "framework": null,
+  "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
