@@ -87,4 +87,7 @@ overrides:
   "vite>picomatch": "4.0.4"
 
 allowBuilds:
-  esbuild: set this to true or false
+  - '@swc/core'
+  - esbuild
+  - msw
+  - unrs-resolver

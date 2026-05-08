@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm --filter @workspace/swe39-magazine run build"
+  publish = "artifacts/swe39-magazine/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  PNPM_FLAGS = "--frozen-lockfile"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
